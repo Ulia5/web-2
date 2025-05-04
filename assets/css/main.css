@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+/* ====================== Header rules ==================*/
+/* img.cart {
+    margin: 5%;
+} */
+
+h1.title {
+    /* margin: 5%; */
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.num {
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
