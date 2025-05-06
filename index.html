@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col-6 col-sm-4"><img src="assets/img/logo.png" width="100" class="logo"></div>
                             <div class="col-sm-4 d-none d-sm-block"><h1 class="title d-flex justify-content-center">Главная страница</h1></div>
-                            <div class="col-6 col-sm-4 "><a href="/" class="d-flex justify-content-end">
+                            <div class="col-6 col-sm-4"><a href="/" class="d-flex justify-content-end">
                                 <img src="assets/img/cart.png" width="30" height="30" class="cart">
                                 <span class="badge rounded-pill text-bg-warning"><p class="num">5</p></span>
                             </a></div>
@@ -30,8 +30,22 @@
             <main class="main">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">sort</div>
-                        <div class="col-6">filter</div>
+                        <div class="col-6">
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle sort-dropdown" type="button" 
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    Сортировать по: названию
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Названию (А-Я)</a></li>
+                                    <li><a class="dropdown-item" href="#">Названию (Я-А)</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Цене (по возрастанию)</a></li>
+                                    <li><a class="dropdown-item" href="#">Цене (по убыванию)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6"><a href="/" class="d-flex justify-content-center"><p>Фильтр</p></a></div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-4 col-md-3">
