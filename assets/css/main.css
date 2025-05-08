@@ -54,3 +54,11 @@ img.trash_bin {
 p.result {
     font-size: 20px;
 }
+
+a.save {
+    margin-left: 75%;
+}
+
+p.status_wait {
+    color: chocolate;
+}
