@@ -46,3 +46,11 @@ p.good_text {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+img.trash_bin {
+    margin-left: 60%;
+}
+
+p.result {
+    font-size: 20px;
+}

@@ -18,7 +18,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-6 col-sm-4"><a href="index.html"><img src="assets/img/logo.png" width="100" class="logo"></a></div>
-                            <div class="col-sm-4 d-none d-sm-block"><h1 class="title d-flex justify-content-center">Карточка товара</h1></div>
+                            <div class="col-sm-4 d-none d-sm-block"><h1 class="title d-flex justify-content-center">Карточка заказа</h1></div>
                             <div class="col-6 col-sm-4"><a href="cart.html" class="d-flex justify-content-end">
                                 <img src="assets/img/cart.png" width="30" height="30" class="cart">
                                 <span class="badge rounded-pill text-bg-warning"><p class="num">5</p></span>
@@ -30,18 +30,39 @@
             <main class="main">
                 <div class="container py-1">
                     <div class="row">
-                        <div class="col-4 px-3">
-                            <img src="assets/img/light.jpg" width="100%">
+                        <div class="col-12 py-2">
+                            <table width="100%" cellpadding="10%" bgcolor="#cecece" border="1"
+                            align="center" cellspacing="5%" frame="hsides">
+                                <tr>
+                                    <td>
+                                        <p>ФИО клиента</p>
+                                        <input type="text" size="60">
+                                    </td>
+                                    <td>Дата: 25.04.2025</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Номер телефона</p>
+                                        <input type="text" size="60">
+                                    </td>
+                                    <td>
+                                        <p>Статус</p>
+                                        <p>Ожидает оплаты</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Адрес</p>
+                                        <input type="text" size="60">
+                                    </td>
+                                    <td>Итого к оплате: 2100 ₽</td>
+                                </tr>
+                            </table>
                         </div>
-                        <div class="col-8 px-5">
-                            <h2 class="good_name d-flex justify-content-center">Лампочка 60W</h2>
-                            <p class="good_text">Мощность: 60W</p>
-                            <p class="good_text">Цена: 150.00 ₽/шт</p>
-                            <p class="good_text">Описание: Энергосберегающая лампока на 60W</p>
-                            <p class="good_text">Категория: Энергосберегающая</p>
-                            <button class="btn btn-warning">В корзину</button>
-                        </div>
-                    </div>   
+                    </div>
+                    <div class="row py-3">
+                        <a href="cart.html" class="col-1 btn btn-warning">Назад</a>
+                    </div>
                 </div>
             </main>
             <footer class="bg-dark text-white text-center py-3">
